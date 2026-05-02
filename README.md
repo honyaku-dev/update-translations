@@ -14,7 +14,13 @@ All reads from and writes to the language file are delegated to subagents, so th
 
 ## Installation
 
-Place this directory under `~/.claude/skills/` (user-level) or `.claude/skills/` (project-level):
+Install with [skills](https://github.com/honykaku-dev/skills):
+
+```
+npx skills add honykaku-dev/update-translations
+```
+
+Or place this directory manually under `~/.claude/skills/` (user-level) or `.claude/skills/` (project-level):
 
 ```
 ~/.claude/skills/update-translations/
